@@ -8,12 +8,7 @@ function WelcomeScreen(props) {
         source={require('../assets/fit-homepage-image.png')}
         >   
 
-          {/*   <View style={styles.logoContainer}>
-
-            <Image style={styles.logo} source={require('../assets/logo-red.png')}/>
-            <Text>BigPeePee</Text>
-
-            </View> */}
+          
             
             <TouchableOpacity activeOpacity={0.6} style={styles.loginButton}><Text style={styles.loginText}>Login</Text></TouchableOpacity>
             <TouchableOpacity activeOpacity={0.6} style={styles.registerButton}><Text style={styles.registerText}>Register</Text></TouchableOpacity>
